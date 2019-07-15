@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217D66CFD12684668FD6D8FB /* Pods_poc_traffic_app_oauthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FD6CE8E170A82DAC805704 /* Pods_poc_traffic_app_oauthTests.framework */; };
+		6811B5F72D881021AA597535 /* Pods_poc_traffic_app_oauth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A73F438DFC08AF2F05952 /* Pods_poc_traffic_app_oauth.framework */; };
+		6903BE2622D9F5AA00DAEE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903BE2522D9F5AA00DAEE3D /* AppDelegate.swift */; };
+		6903BE2822D9F5AA00DAEE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903BE2722D9F5AA00DAEE3D /* ViewController.swift */; };
+		6903BE2B22D9F5AA00DAEE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903BE2922D9F5AA00DAEE3D /* Main.storyboard */; };
+		6903BE2D22D9F5AC00DAEE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6903BE2C22D9F5AC00DAEE3D /* Assets.xcassets */; };
+		6903BE3022D9F5AC00DAEE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903BE2E22D9F5AC00DAEE3D /* LaunchScreen.storyboard */; };
+		6903BE3B22D9F5AC00DAEE3D /* poc_traffic_app_oauthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903BE3A22D9F5AC00DAEE3D /* poc_traffic_app_oauthTests.swift */; };
+		6903BE4622D9F5AC00DAEE3D /* poc_traffic_app_oauthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903BE4522D9F5AC00DAEE3D /* poc_traffic_app_oauthUITests.swift */; };
+		6976215F22DB4BEC00F3C125 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976215E22DB4BEC00F3C125 /* SubViewController.swift */; };
+		6976216522DB50A000F3C125 /* SampleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976216422DB50A000F3C125 /* SampleService.swift */; };
+		6976216722DB519D00F3C125 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976216622DB519D00F3C125 /* ResponseData.swift */; };
+		8AAA42C41F1B666405BAD6B1 /* Pods_poc_traffic_app_oauthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867F48A5297105D14BBB68F7 /* Pods_poc_traffic_app_oauthUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6903BE3722D9F5AC00DAEE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6903BE1A22D9F5AA00DAEE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903BE2122D9F5AA00DAEE3D;
+			remoteInfo = "poc-traffic-app-oauth";
+		};
+		6903BE4222D9F5AC00DAEE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6903BE1A22D9F5AA00DAEE3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903BE2122D9F5AA00DAEE3D;
+			remoteInfo = "poc-traffic-app-oauth";
+		};
+		69EBE7E022DA0D6B00BBDD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 411E9B2BA2A61ADDB983D48252C73CBF;
+			remoteInfo = OAuthSwift;
+		};
+		69EBE7E222DA0D6B00BBDD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71AE2748F82829B1D7EC8E34A9054162;
+			remoteInfo = "Pods-poc-traffic-app-oauth";
+		};
+		69EBE7E422DA0D6B00BBDD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6222DA707F0DBE5D125D5322604EADA1;
+			remoteInfo = "Pods-poc-traffic-app-oauthTests";
+		};
+		69EBE7E622DA0D6B00BBDD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F38B4643F3991A01AB640F25AD19F9DE;
+			remoteInfo = "Pods-poc-traffic-app-oauthUITests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FC453FA3F76535BF377561 /* Pods-poc-traffic-app-oauth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-traffic-app-oauth.debug.xcconfig"; path = "Target Support Files/Pods-poc-traffic-app-oauth/Pods-poc-traffic-app-oauth.debug.xcconfig"; sourceTree = "<group>"; };
+		07FD6CE8E170A82DAC805704 /* Pods_poc_traffic_app_oauthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_traffic_app_oauthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		307EAC9AFF25AD6D5B3491ED /* Pods-poc-traffic-app-oauthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-traffic-app-oauthTests.release.xcconfig"; path = "Target Support Files/Pods-poc-traffic-app-oauthTests/Pods-poc-traffic-app-oauthTests.release.xcconfig"; sourceTree = "<group>"; };
+		6903BE2222D9F5AA00DAEE3D /* poc-traffic-app-oauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-traffic-app-oauth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903BE2522D9F5AA00DAEE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6903BE2722D9F5AA00DAEE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6903BE2A22D9F5AA00DAEE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6903BE2C22D9F5AC00DAEE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6903BE2F22D9F5AC00DAEE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6903BE3122D9F5AC00DAEE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903BE3622D9F5AC00DAEE3D /* poc-traffic-app-oauthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-traffic-app-oauthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903BE3A22D9F5AC00DAEE3D /* poc_traffic_app_oauthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_traffic_app_oauthTests.swift; sourceTree = "<group>"; };
+		6903BE3C22D9F5AC00DAEE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903BE4122D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-traffic-app-oauthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903BE4522D9F5AC00DAEE3D /* poc_traffic_app_oauthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_traffic_app_oauthUITests.swift; sourceTree = "<group>"; };
+		6903BE4722D9F5AC00DAEE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6976215E22DB4BEC00F3C125 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		6976216422DB50A000F3C125 /* SampleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleService.swift; sourceTree = "<group>"; };
+		6976216622DB519D00F3C125 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		867F48A5297105D14BBB68F7 /* Pods_poc_traffic_app_oauthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_traffic_app_oauthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5621EF81BCC40B2EE14140 /* Pods-poc-traffic-app-oauthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-traffic-app-oauthUITests.debug.xcconfig"; path = "Target Support Files/Pods-poc-traffic-app-oauthUITests/Pods-poc-traffic-app-oauthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A11E49A6DD62EE3379032320 /* Pods-poc-traffic-app-oauth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-traffic-app-oauth.release.xcconfig"; path = "Target Support Files/Pods-poc-traffic-app-oauth/Pods-poc-traffic-app-oauth.release.xcconfig"; sourceTree = "<group>"; };
+		AD270B9DFB72B3460E5C0312 /* Pods-poc-traffic-app-oauthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-traffic-app-oauthTests.debug.xcconfig"; path = "Target Support Files/Pods-poc-traffic-app-oauthTests/Pods-poc-traffic-app-oauthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3A73F438DFC08AF2F05952 /* Pods_poc_traffic_app_oauth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_traffic_app_oauth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE176926929F6E5DA4CB6925 /* Pods-poc-traffic-app-oauthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-traffic-app-oauthUITests.release.xcconfig"; path = "Target Support Files/Pods-poc-traffic-app-oauthUITests/Pods-poc-traffic-app-oauthUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6903BE1F22D9F5AA00DAEE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6811B5F72D881021AA597535 /* Pods_poc_traffic_app_oauth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903BE3322D9F5AC00DAEE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D66CFD12684668FD6D8FB /* Pods_poc_traffic_app_oauthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903BE3E22D9F5AC00DAEE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAA42C41F1B666405BAD6B1 /* Pods_poc_traffic_app_oauthUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E05E08F2345CD58A9CE378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06FC453FA3F76535BF377561 /* Pods-poc-traffic-app-oauth.debug.xcconfig */,
+				A11E49A6DD62EE3379032320 /* Pods-poc-traffic-app-oauth.release.xcconfig */,
+				AD270B9DFB72B3460E5C0312 /* Pods-poc-traffic-app-oauthTests.debug.xcconfig */,
+				307EAC9AFF25AD6D5B3491ED /* Pods-poc-traffic-app-oauthTests.release.xcconfig */,
+				8B5621EF81BCC40B2EE14140 /* Pods-poc-traffic-app-oauthUITests.debug.xcconfig */,
+				EE176926929F6E5DA4CB6925 /* Pods-poc-traffic-app-oauthUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6903BE1922D9F5AA00DAEE3D = {
+			isa = PBXGroup;
+			children = (
+				69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */,
+				6903BE2422D9F5AA00DAEE3D /* poc-traffic-app-oauth */,
+				6903BE3922D9F5AC00DAEE3D /* poc-traffic-app-oauthTests */,
+				6903BE4422D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests */,
+				6903BE2322D9F5AA00DAEE3D /* Products */,
+				38E05E08F2345CD58A9CE378 /* Pods */,
+				94FA72EAA17949E67F574949 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6903BE2322D9F5AA00DAEE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6903BE2222D9F5AA00DAEE3D /* poc-traffic-app-oauth.app */,
+				6903BE3622D9F5AC00DAEE3D /* poc-traffic-app-oauthTests.xctest */,
+				6903BE4122D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6903BE2422D9F5AA00DAEE3D /* poc-traffic-app-oauth */ = {
+			isa = PBXGroup;
+			children = (
+				6903BE2522D9F5AA00DAEE3D /* AppDelegate.swift */,
+				6903BE2722D9F5AA00DAEE3D /* ViewController.swift */,
+				6903BE2922D9F5AA00DAEE3D /* Main.storyboard */,
+				6903BE2C22D9F5AC00DAEE3D /* Assets.xcassets */,
+				6903BE2E22D9F5AC00DAEE3D /* LaunchScreen.storyboard */,
+				6903BE3122D9F5AC00DAEE3D /* Info.plist */,
+				6976215E22DB4BEC00F3C125 /* SubViewController.swift */,
+				6976216422DB50A000F3C125 /* SampleService.swift */,
+				6976216622DB519D00F3C125 /* ResponseData.swift */,
+			);
+			path = "poc-traffic-app-oauth";
+			sourceTree = "<group>";
+		};
+		6903BE3922D9F5AC00DAEE3D /* poc-traffic-app-oauthTests */ = {
+			isa = PBXGroup;
+			children = (
+				6903BE3A22D9F5AC00DAEE3D /* poc_traffic_app_oauthTests.swift */,
+				6903BE3C22D9F5AC00DAEE3D /* Info.plist */,
+			);
+			path = "poc-traffic-app-oauthTests";
+			sourceTree = "<group>";
+		};
+		6903BE4422D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6903BE4522D9F5AC00DAEE3D /* poc_traffic_app_oauthUITests.swift */,
+				6903BE4722D9F5AC00DAEE3D /* Info.plist */,
+			);
+			path = "poc-traffic-app-oauthUITests";
+			sourceTree = "<group>";
+		};
+		69EBE7DA22DA0D6B00BBDD64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69EBE7E122DA0D6B00BBDD64 /* OAuthSwift.framework */,
+				69EBE7E322DA0D6B00BBDD64 /* Pods_poc_traffic_app_oauth.framework */,
+				69EBE7E522DA0D6B00BBDD64 /* Pods_poc_traffic_app_oauthTests.framework */,
+				69EBE7E722DA0D6B00BBDD64 /* Pods_poc_traffic_app_oauthUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FA72EAA17949E67F574949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A73F438DFC08AF2F05952 /* Pods_poc_traffic_app_oauth.framework */,
+				07FD6CE8E170A82DAC805704 /* Pods_poc_traffic_app_oauthTests.framework */,
+				867F48A5297105D14BBB68F7 /* Pods_poc_traffic_app_oauthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6903BE2122D9F5AA00DAEE3D /* poc-traffic-app-oauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903BE4A22D9F5AC00DAEE3D /* Build configuration list for PBXNativeTarget "poc-traffic-app-oauth" */;
+			buildPhases = (
+				AA7875A7B25BB236FF343EDA /* [CP] Check Pods Manifest.lock */,
+				6903BE1E22D9F5AA00DAEE3D /* Sources */,
+				6903BE1F22D9F5AA00DAEE3D /* Frameworks */,
+				6903BE2022D9F5AA00DAEE3D /* Resources */,
+				245A62F392D2AB45AD14FB20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poc-traffic-app-oauth";
+			productName = "poc-traffic-app-oauth";
+			productReference = 6903BE2222D9F5AA00DAEE3D /* poc-traffic-app-oauth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6903BE3522D9F5AC00DAEE3D /* poc-traffic-app-oauthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903BE4D22D9F5AC00DAEE3D /* Build configuration list for PBXNativeTarget "poc-traffic-app-oauthTests" */;
+			buildPhases = (
+				657F8CF82926D98D023810EC /* [CP] Check Pods Manifest.lock */,
+				6903BE3222D9F5AC00DAEE3D /* Sources */,
+				6903BE3322D9F5AC00DAEE3D /* Frameworks */,
+				6903BE3422D9F5AC00DAEE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903BE3822D9F5AC00DAEE3D /* PBXTargetDependency */,
+			);
+			name = "poc-traffic-app-oauthTests";
+			productName = "poc-traffic-app-oauthTests";
+			productReference = 6903BE3622D9F5AC00DAEE3D /* poc-traffic-app-oauthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6903BE4022D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903BE5022D9F5AC00DAEE3D /* Build configuration list for PBXNativeTarget "poc-traffic-app-oauthUITests" */;
+			buildPhases = (
+				3DE504CC1F0ECA58B27445E2 /* [CP] Check Pods Manifest.lock */,
+				6903BE3D22D9F5AC00DAEE3D /* Sources */,
+				6903BE3E22D9F5AC00DAEE3D /* Frameworks */,
+				6903BE3F22D9F5AC00DAEE3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903BE4322D9F5AC00DAEE3D /* PBXTargetDependency */,
+			);
+			name = "poc-traffic-app-oauthUITests";
+			productName = "poc-traffic-app-oauthUITests";
+			productReference = 6903BE4122D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6903BE1A22D9F5AA00DAEE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "八木真彦";
+				TargetAttributes = {
+					6903BE2122D9F5AA00DAEE3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6903BE3522D9F5AC00DAEE3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6903BE2122D9F5AA00DAEE3D;
+					};
+					6903BE4022D9F5AC00DAEE3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6903BE2122D9F5AA00DAEE3D;
+					};
+				};
+			};
+			buildConfigurationList = 6903BE1D22D9F5AA00DAEE3D /* Build configuration list for PBXProject "poc-traffic-app-oauth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6903BE1922D9F5AA00DAEE3D;
+			productRefGroup = 6903BE2322D9F5AA00DAEE3D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 69EBE7DA22DA0D6B00BBDD64 /* Products */;
+					ProjectRef = 69EBE7D922DA0D6B00BBDD64 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6903BE2122D9F5AA00DAEE3D /* poc-traffic-app-oauth */,
+				6903BE3522D9F5AC00DAEE3D /* poc-traffic-app-oauthTests */,
+				6903BE4022D9F5AC00DAEE3D /* poc-traffic-app-oauthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		69EBE7E122DA0D6B00BBDD64 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = 69EBE7E022DA0D6B00BBDD64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		69EBE7E322DA0D6B00BBDD64 /* Pods_poc_traffic_app_oauth.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_poc_traffic_app_oauth.framework;
+			remoteRef = 69EBE7E222DA0D6B00BBDD64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		69EBE7E522DA0D6B00BBDD64 /* Pods_poc_traffic_app_oauthTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_poc_traffic_app_oauthTests.framework;
+			remoteRef = 69EBE7E422DA0D6B00BBDD64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		69EBE7E722DA0D6B00BBDD64 /* Pods_poc_traffic_app_oauthUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_poc_traffic_app_oauthUITests.framework;
+			remoteRef = 69EBE7E622DA0D6B00BBDD64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6903BE2022D9F5AA00DAEE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903BE3022D9F5AC00DAEE3D /* LaunchScreen.storyboard in Resources */,
+				6903BE2D22D9F5AC00DAEE3D /* Assets.xcassets in Resources */,
+				6903BE2B22D9F5AA00DAEE3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903BE3422D9F5AC00DAEE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903BE3F22D9F5AC00DAEE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		245A62F392D2AB45AD14FB20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-poc-traffic-app-oauth/Pods-poc-traffic-app-oauth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-poc-traffic-app-oauth/Pods-poc-traffic-app-oauth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-poc-traffic-app-oauth/Pods-poc-traffic-app-oauth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE504CC1F0ECA58B27445E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-traffic-app-oauthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657F8CF82926D98D023810EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-traffic-app-oauthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7875A7B25BB236FF343EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-traffic-app-oauth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6903BE1E22D9F5AA00DAEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6976215F22DB4BEC00F3C125 /* SubViewController.swift in Sources */,
+				6976216522DB50A000F3C125 /* SampleService.swift in Sources */,
+				6976216722DB519D00F3C125 /* ResponseData.swift in Sources */,
+				6903BE2822D9F5AA00DAEE3D /* ViewController.swift in Sources */,
+				6903BE2622D9F5AA00DAEE3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903BE3222D9F5AC00DAEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903BE3B22D9F5AC00DAEE3D /* poc_traffic_app_oauthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903BE3D22D9F5AC00DAEE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903BE4622D9F5AC00DAEE3D /* poc_traffic_app_oauthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6903BE3822D9F5AC00DAEE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903BE2122D9F5AA00DAEE3D /* poc-traffic-app-oauth */;
+			targetProxy = 6903BE3722D9F5AC00DAEE3D /* PBXContainerItemProxy */;
+		};
+		6903BE4322D9F5AC00DAEE3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903BE2122D9F5AA00DAEE3D /* poc-traffic-app-oauth */;
+			targetProxy = 6903BE4222D9F5AC00DAEE3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6903BE2922D9F5AA00DAEE3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6903BE2A22D9F5AA00DAEE3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6903BE2E22D9F5AC00DAEE3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6903BE2F22D9F5AC00DAEE3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6903BE4822D9F5AC00DAEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6903BE4922D9F5AC00DAEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6903BE4B22D9F5AC00DAEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FC453FA3F76535BF377561 /* Pods-poc-traffic-app-oauth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4D7RCSJ74;
+				INFOPLIST_FILE = "poc-traffic-app-oauth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.poc-traffic-app-oauth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6903BE4C22D9F5AC00DAEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11E49A6DD62EE3379032320 /* Pods-poc-traffic-app-oauth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4D7RCSJ74;
+				INFOPLIST_FILE = "poc-traffic-app-oauth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.poc-traffic-app-oauth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6903BE4E22D9F5AC00DAEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD270B9DFB72B3460E5C0312 /* Pods-poc-traffic-app-oauthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4D7RCSJ74;
+				INFOPLIST_FILE = "poc-traffic-app-oauthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.poc-traffic-app-oauthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-traffic-app-oauth.app/poc-traffic-app-oauth";
+			};
+			name = Debug;
+		};
+		6903BE4F22D9F5AC00DAEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307EAC9AFF25AD6D5B3491ED /* Pods-poc-traffic-app-oauthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4D7RCSJ74;
+				INFOPLIST_FILE = "poc-traffic-app-oauthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.poc-traffic-app-oauthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-traffic-app-oauth.app/poc-traffic-app-oauth";
+			};
+			name = Release;
+		};
+		6903BE5122D9F5AC00DAEE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5621EF81BCC40B2EE14140 /* Pods-poc-traffic-app-oauthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4D7RCSJ74;
+				INFOPLIST_FILE = "poc-traffic-app-oauthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.poc-traffic-app-oauthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-traffic-app-oauth";
+			};
+			name = Debug;
+		};
+		6903BE5222D9F5AC00DAEE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE176926929F6E5DA4CB6925 /* Pods-poc-traffic-app-oauthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4D7RCSJ74;
+				INFOPLIST_FILE = "poc-traffic-app-oauthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.poc-traffic-app-oauthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-traffic-app-oauth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6903BE1D22D9F5AA00DAEE3D /* Build configuration list for PBXProject "poc-traffic-app-oauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903BE4822D9F5AC00DAEE3D /* Debug */,
+				6903BE4922D9F5AC00DAEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903BE4A22D9F5AC00DAEE3D /* Build configuration list for PBXNativeTarget "poc-traffic-app-oauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903BE4B22D9F5AC00DAEE3D /* Debug */,
+				6903BE4C22D9F5AC00DAEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903BE4D22D9F5AC00DAEE3D /* Build configuration list for PBXNativeTarget "poc-traffic-app-oauthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903BE4E22D9F5AC00DAEE3D /* Debug */,
+				6903BE4F22D9F5AC00DAEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903BE5022D9F5AC00DAEE3D /* Build configuration list for PBXNativeTarget "poc-traffic-app-oauthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903BE5122D9F5AC00DAEE3D /* Debug */,
+				6903BE5222D9F5AC00DAEE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6903BE1A22D9F5AA00DAEE3D /* Project object */;
+}

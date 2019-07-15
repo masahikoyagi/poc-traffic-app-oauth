@@ -1,0 +1,6 @@
+framework module Pods_poc_traffic_app_oauthTests {
+  umbrella header "Pods-poc-traffic-app-oauthTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
